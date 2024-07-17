@@ -1519,7 +1519,7 @@ def show_preprocessing_page():
     # Utilisation des fonctions de pré-processing
     #preprocessed_data = preprocess_data(df)
     #st.write(preprocessed_data)
-    st.markdown("#### Préparation des données avant d'appliquer des algorithmes de classification")
+    st.markdown("#### Préparation des données avant d'appliquer les algorithmes de classification")
     st.header("Démarche de pre-processing")
     
     # TABS CONTAINERS PRE PROCESSING
