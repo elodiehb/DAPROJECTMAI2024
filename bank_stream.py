@@ -32,8 +32,8 @@ pages=["Projet", "Jeu de données", "DataVizualisation", "Pre-processing","Modé
 page=st.sidebar.radio("Menu", pages)
 st.sidebar.title("Auteurs")
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/elodie-barnay-henriet-916a6311a/" title="LinkedIn Elodie">Elodie Barnay henriet</a>', unsafe_allow_html=True)
-st.sidebar.markdown('<a href="https://www.linkedin.com/in/irinagrankina/" title="LinkedIn Irina">Irina Grankina</a>', unsafe_allow_html=True)
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/samanthaebrard/" title="LinkedIn Samantha">Samantha Ebrard</a>', unsafe_allow_html=True)
+st.sidebar.markdown('<a href="https://www.linkedin.com/in/irinagrankina/" title="LinkedIn Irina">Irina Grankina</a>', unsafe_allow_html=True)
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/cedric-le-stunff-profile/" title="LinkedIn Cédric">Cédric Le Stunff</a>', unsafe_allow_html=True)
 st.sidebar.title("Liens")
 st.sidebar.markdown('<a href="https://drive.google.com/file/d/1oj_DeLvLWaQn907xsUK0laTjgFFn3bmc/view?usp=sharing" title="Rapport de projet">Rapport</a>', unsafe_allow_html=True)
@@ -500,7 +500,7 @@ En identifiant les facteurs clés de succès des campagnes précédentes, nous p
         
    with col2:
         # Chemin de l'image
-        image_path_intro = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/intro.jpeg"
+        image_path_intro = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/intro.jpeg?raw=true"
         #Afficher l'image
         st.image(image_path_intro)
 
@@ -738,6 +738,8 @@ par rapport à celles qui l'ont fait (47,4 %).
 - **Nombre de contacts précédents (previous)** : Très forte concentration autour de 0 qui signifie pas de contacts précédemment et présence de valeurs extrêmes.
               """)
         st.divider()
+        st.markdown("**Heatmap des Variables Numériques avec la variable cible deposit**")
+
         # Convertir la variable cible 'deposit' en numérique
         df['deposit_num'] = df['deposit'].apply(lambda x: 1 if x == 'yes' else 0)
         # Sélection des variables numériques
@@ -748,9 +750,14 @@ par rapport à celles qui l'ont fait (47,4 %).
         heatmap_fig = px.imshow(corr_matrix_cible, text_auto=True, aspect="auto", color_continuous_scale='Turbo')
         # Mise à jour du layout
         heatmap_fig.update_layout(
-            title="<b>Heatmap des Variables Numériques avec la variable cible deposit</b>",
-            xaxis_title="Variables",
-            yaxis_title="Variables"
+            title="<b></b>",
+            xaxis=dict(
+                title="Variables",
+                side="top"
+             ),
+            yaxis=dict(
+                title="Variables"
+            )
         )
         # Affichage du heatmap avec Streamlit
         st.plotly_chart(heatmap_fig)
@@ -1577,7 +1584,7 @@ target = df['deposit']
        
        st.markdown("#### Split Train / Test")
        # Chemin de l'image
-       image_path_traintest = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/traintest.jpg"
+       image_path_traintest = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/traintest.jpg?raw=true"
        #Afficher l'image
        st.image(image_path_traintest)
 
@@ -1611,7 +1618,7 @@ X_train.shape, X_test.shape
     with tab4:
        st.markdown("#### Démarche Pipeline")
        # Chemin de l'image
-       image_path_pipeline = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/pipeline.jpg"
+       image_path_pipeline = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/pipeline.jpg?raw=true"
        #Afficher l'image
        st.image(image_path_pipeline)
        st.markdown("Grâce à une pipeline, nous avons pu générer rapidement 4 pre-processing différents, testés ensuite sur différents algorithmes de Machine Learning :")
@@ -1728,7 +1735,7 @@ def show_modelling_page():
         st.write("")     
         st.markdown("##### Performances")
         # Chemin de l'image
-        image_path_perf11 = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/perf11.png"
+        image_path_perf11 = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/perf11.png?raw=true"
         #Afficher l'image
         st.image(image_path_perf11)
         st.write("")
@@ -1741,16 +1748,16 @@ def show_modelling_page():
        )
         # Définir les chemins des images
         image_paths = {
-       'Random Forest': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fi_rf.png",
-       'XGBoost': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fi_xg.png",
-       'LightGBM': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fi_gbm.png"
+       'Random Forest': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fi_rf.png?raw=true",
+       'XGBoost': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fi_xg.png?raw=true",
+       'LightGBM': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fi_gbm.png?raw=true"
        }
         # Afficher l'image en fonction de la sélection
         st.image(image_paths[option])
         st.markdown("##### Constat")              
         st.markdown("""
 - La variable **'duration'** (durée de l'appel durant la campagne) est la variable explicative qui ressort comme étant la plus importante dans la prédiction des résultats. 
-Ceci était démontré dans la matrice de corrélation et désormais confirmé lors du scoring des modèles entrainés.
+Ceci était démontré dans la matrice de corrélation est désormais confirmé lors du scoring des modèles entrainés.
 Néanmoins, cette variable est connue à posteriori de la campagne puisque c'est après l'appel télémarketing que la durée de l'appel est connue.
 Il apparaît donc intéressant de **tester nos modèles en supprimant cette variable de nos jeux d'entrainement et de test**. Nous avons également testé en conservant la variable duration avec uniquement sa valeur médiane et le résultat n'a pas été concluant.
 - A noter que la variable **'balance'** (solde moyen du compte) est celle qui a le plus d'importance après 'duration'.
@@ -1785,7 +1792,7 @@ Il apparaît donc intéressant de **tester nos modèles en supprimant cette vari
         st.divider()     
         st.markdown("##### Performances")
         # Chemin de l'image
-        image_path_perfsd = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/perfsd.jpg"
+        image_path_perfsd = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/perfsd.jpg?raw=true"
         #Afficher l'image
         st.image(image_path_perfsd)
         st.write("")     
@@ -1808,9 +1815,9 @@ ce qui démontre le poids de cette variable dans la modélisation prédictive.
        )
         # Définir les chemins des images
         image_paths2 = {
-       'Random Forest': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fisd_rf.png",
-       'XGBoost': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fisd_xg.png",
-       'LightGBM': "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/fisd_gbm.jpg"
+       'Random Forest': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fisd_rf.png?raw=true",
+       'XGBoost': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fisd_xg.png?raw=true",
+       'LightGBM': "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/fisd_gbm.jpg?raw=true"
        }
         # Afficher l'image en fonction de la sélection
         st.image(image_paths2[option2])
@@ -2109,7 +2116,7 @@ def show_conclusion_page():
                 """)
        with col2:
           # Chemin de l'image
-          image_path_persona = "https://raw.githubusercontent.com/DAPROJECTMAI2024/main/img/persona.png"
+          image_path_persona = "https://github.com/elodiehb/DAPROJECTMAI2024/blob/main/img/persona.png?raw=true"
           #Afficher l'image
           st.image(image_path_persona)      
 
