@@ -1482,13 +1482,13 @@ L'exemple flagrant est le mois de mai qui semble être le mois avec la plus fort
             legend_title="Dépôt"
             )
 
-        fig.update_xaxes(title_text='Groupe de clients si contactés précédemment ou non (previous)', row=1, col=1)
+        fig.update_xaxes(title_text='', row=1, col=1)
         fig.update_yaxes(title_text='Nombre de dépôts', row=1, col=1)
 
-        fig.update_xaxes(title_text='Deposit', row=1, col=2)
+        fig.update_xaxes(title_text='', row=1, col=2)
         fig.update_yaxes(title_text='Nombre de jours depuis le dernier contact (pdays)', row=1, col=2)
 
-        fig.update_xaxes(title_text='Résultats de la campagne précédente (poutcome)', row=1, col=3)
+        fig.update_xaxes(title_text='', row=1, col=3)
         fig.update_yaxes(title_text='Nombre de dépôts', row=1, col=3)
 
         # Afficher la figure dans Streamlit
