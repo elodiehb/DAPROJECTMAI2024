@@ -1235,10 +1235,10 @@ ce qui semble cohérent puisque pdays représente le nombre de jours depuis le d
         st.markdown("**Constat**")
         st.markdown("""
 - **Défaut de paiement (default)** : Très faible part de clients en défaut de paiement dans le jeu de données. 
-En revanche on constate nettement que ceux en défaut de paiement sont beaucoup moins enclins à souscrire au dépôt (69% n'ont pas souscrit, alors que 52% des autres clients ont souscrit ce qui correspond à la la moyenne générale des souscripteurs)
-- **Prêt personnel (loan)** : faible part des clients de la banque ayant un crédit consommation ou prêt personnel. Néanmoins, on constate que ceux ayant un prêt personnel en cours ont moins souscrit au dépôt (69% n'ont pas souscrit, alors que 50,4% des autres clients ont souscrit ce qui s'approche de la moyenne générale des souscripteurs)
-- **Prêt immobilier (housing)**: On note nettement ici que les clients n'ayant pas de crédit immobilier sont une majorité à souscrire au dépôt (57% d'entre eux) et inversement les clients ayant un crédit immobilier en cours sont moins enclins à souscrire (63% d'entre eux n'ont pas souscrit)
-- **Solde moyen de compte (balance)**: les données sont étendues avec beaucoup de valeurs extrêmes. On constate un solde médian à 733€ pour les clients ayant souscrit et un solde médian plus faible à 414€ pour les clients n'ayant pas souscrit .
+En revanche on constate nettement que ceux en défaut de paiement sont beaucoup moins enclins à souscrire au dépôt (69% n'ont pas souscrit, alors que 52% des autres clients ont souscrit ce qui correspond à la la moyenne générale des souscripteurs).
+- **Prêt personnel (loan)** : faible part des clients de la banque ayant un crédit consommation ou prêt personnel. Néanmoins, on constate que ceux ayant un prêt personnel en cours ont moins souscrit au dépôt (69% n'ont pas souscrit, alors que 50,4% des autres clients ont souscrit ce qui s'approche de la moyenne générale des souscripteurs).
+- **Prêt immobilier (housing)**: On note nettement ici que les clients n'ayant pas de crédit immobilier sont une majorité à souscrire au dépôt (57% d'entre eux) et inversement les clients ayant un crédit immobilier en cours sont moins enclins à souscrire (63% d'entre eux n'ont pas souscrit).
+- **Solde moyen de compte (balance)**: les données sont étendues avec beaucoup de valeurs extrêmes. On constate un solde médian à 733€ pour les clients ayant souscrit et un solde médian plus faible à 414€ pour les clients n'ayant pas souscrit.
     """)
         st.divider()
 
@@ -1381,9 +1381,9 @@ En revanche on constate nettement que ceux en défaut de paiement sont beaucoup 
         st.plotly_chart(fig)
         st.markdown("**Constat**")
         st.markdown("""
-- **Type de contact** : Une majorité de contact pour cette campagne de télémarketing a été opérée sur mobile (cellular) et on constate une plus forte proporition de souscription pour les clients ayant été contacté par ce biais (plus de 54%).
+- **Type de contact** : Une majorité de contact pour cette campagne de télémarketing a été opérée sur mobile (cellular) et on constate une plus forte proporition de souscription pour les clients ayant été contactés par ce biais (plus de 54%).
 Néanmoins une part importante du type de contact est inconnue.
-- **Durée du contact**: Il apparaît que la durée du contact client influence sur le résultat du dépôt à terme : plus le contact est long, plus les clients ont tendance à souscrire.
+- **Durée du contact**: Il apparaît que la durée du contact client influence le résultat du dépôt à terme : plus le contact est long, plus les clients ont tendance à souscrire.
 - **Mois de contact** : Il est intéressant de constater sur les 2 graphiques du bas, que si les mois de mai, juin, juillet, Août sont les mois de plus forte activité de la campagne,
 ce ne sont pas les mois où la part de souscription est la plus importante. On constate en effet une **plus forte proportion de clients effectuant un dépôt durant les mois de février, mars, avril, septembre, octobre et décembre**.
 L'exemple flagrant est le mois de mai qui semble être le mois avec la plus forte activité de la campagne et pour lequel la part de dépôt est plus faible.
@@ -1456,7 +1456,8 @@ L'exemple flagrant est le mois de mai qui semble être le mois avec la plus fort
                 "Contacts précédents ou non",
                 "Nombre de jours depuis le dernier contact",
                 "Succès de la précédente campagne"
-            )
+            ),
+            horizontal_spacing=0.1  # Ajuster cet espace pour espacer les subplots horizontalement
         )
 
         # Ajouter fig_previous
