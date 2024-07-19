@@ -731,7 +731,7 @@ par rapport à celles qui l'ont faits (47,4 %).
         st.subheader("Constat")
         st.markdown("""
 - **Solde moyen du compte bancaire (balance)** : Forte concentration des données autour de 0. Présence de valeurs négatives et de valeurs extrêmes.
-- **Jour de contact (days)** : la campagne de télémarketing semble avoir lieu tous les jours du mois, avec une baisse notable en moyenne le 10 du mois et entre le 22 et le 27 du mois. Il est à noter que cette variable est lissée sur tous les mois de plusieurs années, avec l'absence de l'information année, ni celle du jour de la semaine, ne nous permettant pas de déduire de grosses tendances à partir de cette variable.
+- **Jour de contact (days)** : la campagne de télémarketing semble avoir lieu tous les jours du mois, avec une baisse notable en moyenne le 10 du mois et entre le 22 et le 27 du mois. Il est à noter que cette variable est lissée sur tous les mois de plusieurs années. L'absence de l'information année et du jour de la semaine, ne nous permettent pas de déduire de grosses tendances à partir de cette variable.
 - **Durée du contact (duration)** : exprimée en secondes, présence de valeurs extrêmes.
 - **Nombre de contacts de la campagne(campaign)** : présence de valeurs extrêmes.
 - **Nombre de jours depuis le contact précédent (pdays)** : forte présence de valeurs négatives, distribution asymétrique, et nombreuses valeurs extrêmes.
