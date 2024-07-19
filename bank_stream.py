@@ -685,7 +685,7 @@ def show_data_viz_page():
         st.plotly_chart(fig)
         st.subheader("Constat")
         st.markdown("""
-La répartition entre les clients qui ont souscrit à un dépôt à terme et ceux qui n'ont pas soucrit est relativement équilibrée, 
+La répartition entre les clients qui ont souscrits à un dépôt à terme et ceux qui n'ont pas soucrits est relativement équilibrée, 
 avec une différence de 5.2 points. 
 Toutefois, il y a légèrement plus de personnes qui n'ont pas contractés de dépôt (52,6 %) 
 par rapport à celles qui l'ont faits (47,4 %).
