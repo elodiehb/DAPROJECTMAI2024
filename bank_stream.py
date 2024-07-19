@@ -1457,7 +1457,7 @@ L'exemple flagrant est le mois de mai qui semble être le mois avec la plus fort
                 "Nombre de jours depuis le dernier contact",
                 "Succès de la précédente campagne"
             ),
-            horizontal_spacing=0.1  # Ajuster cet espace pour espacer les subplots horizontalement
+            horizontal_spacing=0.5  # Ajuster cet espace pour espacer les subplots horizontalement
         )
 
         # Ajouter fig_previous
