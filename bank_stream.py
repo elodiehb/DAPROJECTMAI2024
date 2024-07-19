@@ -1369,13 +1369,13 @@ En revanche on constate nettement que ceux en défaut de paiement sont beaucoup 
         fig.update_yaxes(title_text='Nombre de dépôts', row=1, col=1)
 
         fig.update_xaxes(title_text='Durée de contact en minutes', row=1, col=2)
-        fig.update_yaxes(title_text='Nombre de dépôts', row=1, col=2)
+        fig.update_yaxes(title_text='', row=1, col=2)
 
         fig.update_xaxes(title_text='Mois de contact', row=2, col=1)
         fig.update_yaxes(title_text='Nombre de dépôts', row=2, col=1)
 
         fig.update_xaxes(title_text='Mois de contact', row=2, col=2)
-        fig.update_yaxes(title_text='Nombre de dépôts', row=2, col=2)
+        fig.update_yaxes(title_text='', row=2, col=2)
 
         # Afficher la figure dans Streamlit
         st.plotly_chart(fig)
@@ -1631,7 +1631,7 @@ X_train.shape, X_test.shape
                """)
        st.markdown("""Après avoir fait tourner différents algorithmes de classification, 
                le pré-processing 2 a eu de meilleurs scores - même si très légèrement supérieurs.
-               C'est donc cette pipeline utilisée ci-après :  """)
+               C'est donc ce pré-processing que nous avons choisi pour mettre en place la pipeline suivante :  """)
        st.divider()
        st.subheader("Pipeline")
        # Chargement des données
@@ -1708,13 +1708,13 @@ def show_modelling_page():
     with tab1:
         st.markdown("##### Etapes")
         st.markdown("""
-- Premier entrainement de 11 modèles de classification 
+- Premier entraînement de 11 modèles de classification 
     - Analyse des performances
 - Choix de supprimer la variable duration 
-    - Entrainement des 11 modèles sans duration
+    - Entraînement des 11 modèles sans duration
 - Sélection des 3 modèles les plus performants
     - Grille de recherche d'hyperparamètres optimaux (GridSearchCV)
-    - Entrainement des 3 modèles avec leurs meilleurs paramètres
+    - Entraînement des 3 modèles avec leurs meilleurs paramètres
     - Analyse des performances 
     """)
 
