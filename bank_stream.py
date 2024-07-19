@@ -824,9 +824,9 @@ ce qui semble cohérent puisque pdays représente le nombre de jours depuis le d
         st.plotly_chart(fig)
         st.markdown("**Constat**")
         st.markdown("""
-- Profession (job) : Les professions les plus fréquentes sont 'management','blue-collar' (ouvriers) et 'technician'”'.
+- Profession (job) : Les professions les plus fréquentes sont 'management','blue-collar' (ouvriers) et 'technician'.
 - État civil (marital) : La majorité des clients sont 'married' (mariés).
-- Niveau d'études (education) : La catégorie 'secondary' (enseignement secondaire) est la plus fréquente parmi ceux qui ont souscrit au produit dépôt à terme.
+- Niveau d'études (education) : La catégorie 'secondary' (enseignement secondaire) est la plus fréquente parmi ceux qui ont souscrits au produit dépôt à terme.
 - Défaut de paiement (default) : Très faible part des clients en défaut de paiement.
 - Crédit immobilier (housing) : plutôt équilibré entre les clients ayant un crédit immobilier ou non.
 - Prêt personnel (loan) : Très faible part de clients avec un prêt personnel.
