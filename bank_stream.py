@@ -36,7 +36,7 @@ st.sidebar.markdown('<a href="https://www.linkedin.com/in/samanthaebrard/" title
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/irinagrankina/" title="LinkedIn Irina">Irina Grankina</a>', unsafe_allow_html=True)
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/cedric-le-stunff-profile/" title="LinkedIn Cédric">Cédric Le Stunff</a>', unsafe_allow_html=True)
 st.sidebar.title("Liens")
-st.sidebar.markdown('<a href="https://drive.google.com/file/d/1oj_DeLvLWaQn907xsUK0laTjgFFn3bmc/view?usp=sharing" title="Rapport de projet">Rapport</a>', unsafe_allow_html=True)
+st.sidebar.markdown('<a href="https://drive.google.com/file/d/1xnrFCo4Bb5TJaHGPRzUeTfKLn5KPBJci/view?usp=drive_link" title="Rapport de projet">Rapport</a>', unsafe_allow_html=True)
 st.sidebar.markdown('<a href="https://colab.research.google.com/drive/1eY6XSFy2pTywJwGjXQacfjSf8dD_PNqB?usp=sharing" title="Notebook Google Colab">Notebook</a>', unsafe_allow_html=True)
 
 st.sidebar.write("")
