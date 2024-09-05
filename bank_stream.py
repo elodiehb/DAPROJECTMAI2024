@@ -634,7 +634,7 @@ equivaut = (filtered_df['previous'] == 0).all()
 
 # PAGE2 DATAVIZ
 def show_data_viz_page():
-    st.title("DataVizualisation")
+    st.title("DataViz")
     # Charger les données
     df = load_data()
     col1, col2, col3, col4 = st.columns([1, 1, 1,1])
@@ -2184,7 +2184,7 @@ def main():
         show_projet_page()
     elif page == "Jeu de données":
         show_jeu_de_donnees_page()
-    elif page == "DataVizualisation":
+    elif page == "DataViz":
         show_data_viz_page()
     elif page == "Pre-processing":
         show_preprocessing_page()
