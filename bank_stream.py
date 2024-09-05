@@ -28,7 +28,7 @@ import joblib
 st. set_page_config(layout="wide")
 #sidebar
 st.sidebar.title("Sommaire")
-pages=["Projet", "Jeu de données", "DataVizualisation", "Pre-processing","Modélisation","Conclusion"]
+pages=["Projet", "Jeu de données", "DataViz", "Pre-processing","Modélisation","Conclusion"]
 page=st.sidebar.radio("Menu", pages)
 st.sidebar.title("Auteurs")
 st.sidebar.markdown('<a href="https://www.linkedin.com/in/elodie-barnay-henriet-916a6311a/" title="LinkedIn Elodie">Elodie Barnay Henriet</a>', unsafe_allow_html=True)
