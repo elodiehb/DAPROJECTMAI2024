@@ -1,7 +1,14 @@
 # Analyse prédictive d'une campagne marketing
-<!-- MARKDOWN LIENS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
+[contributors-shield]: https://img.shields.io/github/contributors/thierry-laval/P22-template-pour-un-readme.svg?label=Contributeurs&style=for-the-badge&color=blue
+[contributors-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/thierry-laval/P22-template-pour-un-readme?style=for-the-badge
+[forks-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/network/members
+[stars-shield]: https://img.shields.io/github/stars/thierry-laval/P22-template-pour-un-readme?style=for-the-badge
+[stars-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/stargazers
+[issues-shield]: https://img.shields.io/github/issues/thierry-laval/P22-template-pour-un-readme?color=yellow&style=for-the-badge
+[issues-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/issues
+[license-shield]: https://img.shields.io/badge/LICENCE-MIT-green?color=green&style=for-the-badge
+[license-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/blob/main/LICENSE
 [linkedin-url]: https://www.linkedin.com/in/elodie-barnay-henriet-916a6311a/
 [product-screenshot]: images/screenshot.png
 
