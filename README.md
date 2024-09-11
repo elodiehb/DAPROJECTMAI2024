@@ -17,3 +17,20 @@ Ce qu'il est requis pour commencer avec votre projet...
 - Programme 1
 - Programme 2
 - etc...
+
+### Références
+### Dataset
+* [Site officiel](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)
+
+### Python
+* [Site officiel](https://www.python.org/)
+* [Documentation](https://docs.python.org/fr/3/) en français
+
+### Git
+* [Site officiel](https://git-scm.com/)
+* [Documentation](https://git-scm.com/doc)
+* Carte de référence (en français) ([web](https://training.github.com/downloads/fr/github-git-cheat-sheet/), [pdf](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf))
+* Le livre [Pro Git](https://git-scm.com/book/fr/v2) (*Scott Chacon et Ben Straub, Apress*) en français
+
+### Streamlit
+* [Site officiel](https://streamlit.io/)
