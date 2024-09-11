@@ -24,11 +24,9 @@ Sur le plan technique, l'analyse du dataset « bank.csv » représente une occas
 
 D'un point de vue stratégique, ce projet vise à fournir des insights précieux pour augmenter les taux de souscription au produit "dépôt à terme". En identifiant les facteurs clés de succès des campagnes précédentes, nous pouvons aider l'institution financière à optimiser ses ressources marketing, à cibler plus efficacement ses clients et à améliorer ses taux de conversion, générant ainsi des revenus supplémentaires.
 
-## Pour commencer
 
-Entrez ici les instructions pour bien débuter avec votre projet...
 
-### Installation Streamlit en local
+### Envie d'installer Streamlit en local ?
 Voici les étapes à suivre pour une première installation de Streamlit :
 1. lancer une commande cmd
 2. Installer la librairie Streamlit en tapant la commande et valider
