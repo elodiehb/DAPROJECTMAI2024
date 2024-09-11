@@ -19,7 +19,9 @@
 
 ***
 
-Projet réalisé lors de mon cursus diplômant Data Analyst avec Mines Paris - PSL / DataScientest.com. Objectif : Analyser l'ensemble des données afin d'identifier les tendances et les facteurs qui influencent la souscription à un produit bancaire. 
+Projet réalisé lors de mon cursus diplômant Data Analyst avec Mines Paris - PSL / DataScientest.com. Objectif : Analyser l'ensemble des données afin d'identifier les tendances et les facteurs qui influencent la souscription à un produit bancaire : 
+
+https://daprojectmai2024-abylmydnrqyz2wdzvcm9et.streamlit.app
 
 Sur le plan technique, l'analyse du dataset « bank.csv » représente une occasion unique de mettre en pratique mes compétences en matière d’analyse de données, de visualisation avec Plotly, de modélisation d’algorithmes de classification et de publication sur Streamlit et Github.
 
