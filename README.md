@@ -1,4 +1,6 @@
 # Analyse prédictive d'une campagne marketing
+<!-- MARKDOWN LIENS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/thierry-laval/P22-template-pour-un-readme.svg?label=Contributeurs&style=for-the-badge&color=blue
 [contributors-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/thierry-laval/P22-template-pour-un-readme?style=for-the-badge
@@ -9,14 +11,23 @@
 [issues-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/issues
 [license-shield]: https://img.shields.io/badge/LICENCE-MIT-green?color=green&style=for-the-badge
 [license-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/blob/main/LICENSE
-[linkedin-url]: https://www.linkedin.com/in/elodie-barnay-henriet-916a6311a/
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
+[linkedin-url]: https://www.linkedin.com/in/thierry-laval
 [product-screenshot]: images/screenshot.png
 
 ***
 <div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 </div>
+
+***
 
 Projet réalisé lors de mon cursus diplômant Data Analyst avec Mines Paris - PSL / DataScientest.com. Objectif : Analyser l'ensemble des données afin d'identifier les tendances et les facteurs qui influencent la souscription à un produit bancaire. 
 
