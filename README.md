@@ -2,6 +2,7 @@
 _(juste en dessous des badges sympatiques à placer)_
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
 
 Projet réalisé lors de mon cursus diplômant Data Analyst avec Mines Paris - PSL / DataScientest.com. Objectif : Analyser l'ensemble des données afin d'identifier les tendances et les facteurs qui influencent la souscription à un produit bancaire. 
 
@@ -13,9 +14,7 @@ D'un point de vue stratégique, ce projet vise à fournir des insights précieux
 
 Entrez ici les instructions pour bien débuter avec votre projet...
 
-### Pré-requis
-
-Installation Streamlit
+### Installation Streamlit en local
 Voici les étapes à suivre pour une première installation de Streamlit :
 1. lancer une commande cmd
 2. Installer la librairie Streamlit en tapant la commande et valider
@@ -27,6 +26,7 @@ Voici les étapes à suivre pour une première installation de Streamlit :
   ```sh
    Streamlit hello
    ```
+Une page web devrait s'ouvrir automatiquement, avec des démonstrations Streamlit. Vous pouvez explorer la page web. Vous pouvez ensuite la fermer à l'aide de la commande ctrl+c dans le Terminal.
 
 ### Références
 ### Dataset
