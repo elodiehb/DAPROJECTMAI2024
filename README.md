@@ -2,8 +2,6 @@
 <!-- MARKDOWN LIENS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[license-shield]: https://img.shields.io/badge/LICENCE-MIT-green?color=green&style=for-the-badge
-[license-url]: https://github.com/thierry-laval/P22-template-pour-un-readme/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
 [linkedin-url]: https://www.linkedin.com/in/elodie-barnay-henriet-916a6311a/
 [product-screenshot]: images/screenshot.png
@@ -12,7 +10,6 @@
 <div align="center">
 
 
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 </div>
