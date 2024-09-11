@@ -27,7 +27,7 @@ D'un point de vue stratégique, ce projet vise à fournir des insights précieux
 
 
 ### Envie d'installer Streamlit en local ?
-Voici les étapes à suivre pour une première installation de Streamlit :
+Voici les étapes à suivre pour une première installation :
 1. lancer une commande cmd
 2. Installer la librairie Streamlit en tapant la commande et valider
    ```sh
